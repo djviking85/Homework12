@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Book warAndPeace = new Book();
+        Book warAndPeace = new Book("Tolstoi", "War and Peace", 1868);
 
         warAndPeace.authorName = "Л. Н.Толстой";
         System.out.println("Автор - " + warAndPeace.authorName);
