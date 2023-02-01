@@ -1,5 +1,7 @@
 package HomeworksProSky;
 
+import java.util.Objects;
+
 public class Book {
         private String authorName;
         private String bookName;
@@ -10,6 +12,8 @@ public class Book {
         this.bookName = bookName;
         this.publishingYear = publishingYear;
     }
+
+
 
     public String getAuthorName() {
         return authorName;
@@ -28,6 +32,20 @@ public class Book {
     }
     public String toString() {
         return " (toString)) Имя автора - " + this.authorName + " , Название книги - " + this.bookName + " , Год издания книги - " + this.publishingYear;
+    }
+
+    // equals
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return publishingYear == book.publishingYear && authorName.equals(book.authorName) && bookName.equals(book.bookName);
+    }
+// hashCode
+    @Override
+    public int hashCode() {
+        return Objects.hash(authorName, bookName, publishingYear);
     }
 }
 

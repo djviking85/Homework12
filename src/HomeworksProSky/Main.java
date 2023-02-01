@@ -8,6 +8,10 @@ public class Main {
 
         Book warAndPeace = new Book("Tolstoi", "War and Peace", 1868);
         Book neznaika = new Book("Носов", "Незнайка на луне", 1964);
+        // книга для сравнения
+        Book neznaika2  = new Book("Носов", "Незнайка на луне", 1964);
+        // иквелс без сеттера, поэтому тру
+        System.out.println("cheks " + neznaika.equals(neznaika2));
 
         System.out.println("Автор - " + warAndPeace.getAuthorName());
         System.out.println("Название - " + warAndPeace.getBookName());
@@ -32,10 +36,18 @@ public class Main {
         // toString книги
         System.out.println(warAndPeace);
         System.out.println(neznaika);
+        // equals после сеттера = поэтому у нас фолс
+        System.out.println("cheks " + neznaika.equals(neznaika2));
+        // хеш на книжку
+        System.out.println("хеш " + neznaika.hashCode());
+
+
+
 
 
         Autor tolstoi = new Autor("Лев", "Толстой", 1828);
         Autor nosov = new Autor("Николай", "Носов", 1908);
+        Autor nosov2 = new Autor("Николай", "Носов", 1908);
 
 
         System.out.println(" Имя автора - "+ tolstoi.getFirstName());
@@ -48,6 +60,8 @@ public class Main {
         // toString автора
         System.out.println(tolstoi);
         System.out.println(nosov);
+        System.out.println( "чекс по эквилсу " + tolstoi.equals(nosov));
+        System.out.println( "чекс по эквилсу " + nosov2.equals(nosov));
 
 // test hw оно все работает, просто не юзаем за не нужности сейчас.
 //        Person sarah = new Person("Сара", 30);
