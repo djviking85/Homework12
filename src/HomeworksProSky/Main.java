@@ -62,6 +62,7 @@ public class Main {
         System.out.println(nosov);
         System.out.println( "чекс по эквилсу " + tolstoi.equals(nosov));
         System.out.println( "чекс по эквилсу " + nosov2.equals(nosov));
+        System.out.println("хеш " + nosov.hashCode());
 
 // test hw оно все работает, просто не юзаем за не нужности сейчас.
 //        Person sarah = new Person("Сара", 30);
