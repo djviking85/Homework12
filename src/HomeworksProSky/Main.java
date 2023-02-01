@@ -1,5 +1,11 @@
+package HomeworksProSky;
+
+import HomeworksProSky.Autor;
+import HomeworksProSky.Book;
+
 public class Main {
     public static void main(String[] args) {
+
         Book warAndPeace = new Book("Tolstoi", "War and Peace", 1868);
         Book neznaika = new Book("Носов", "Незнайка на луне", 1964);
 
@@ -35,7 +41,9 @@ public class Main {
         System.out.println(" -Имя автора - "+ nosov.getFirstName());
         System.out.println(" -Фамилия автора - "+ nosov.getSecondName());
         System.out.println(" -Год рождения автора - "+ nosov.getBirhday());
-
+// test hw
+        Person sarah = new Person("Sara", 30);
+        System.out.println(" Персонаж " + sarah.getName() + " с возрастом " + sarah.getAge());
 
 
 
