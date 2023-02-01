@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1adb2f77-2591-4a2f-96c2-ea18918d3197" name="Changes" comment="ДЗ12">
-      <change afterPath="$PROJECT_DIR$/src/HomeworksProSky/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworksProSky/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeworksProSky/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeworksProSky/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeworksProSky/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeworksProSky/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeworksProSky/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,6 +82,7 @@
       <workItem from="1675085247901" duration="1989000" />
       <workItem from="1675106918466" duration="1808000" />
       <workItem from="1675177323206" duration="5037000" />
+      <workItem from="1675248346252" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="ДЗ12">
       <created>1675110976599</created>

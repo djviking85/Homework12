@@ -22,4 +22,8 @@ public class Autor {
         public int getBirhday() {
                 return birhday;
         }
+
+        public String toString() {
+                return " (toString) Имя Автора - " + this.firstName + " , Фамилия - " + this.secondName + " , дата выпуска автора - " + this.birhday;
+        }
 }

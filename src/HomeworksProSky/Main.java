@@ -29,6 +29,10 @@ public class Main {
         // setter
         neznaika.setPublishingYear(1800);
         System.out.println( "-set Year2 "+ neznaika.getPublishingYear());
+        // toString книги
+        System.out.println(warAndPeace);
+        System.out.println(neznaika);
+
 
         Autor tolstoi = new Autor("Лев", "Толстой", 1828);
         Autor nosov = new Autor("Николай", "Носов", 1908);
@@ -41,10 +45,28 @@ public class Main {
         System.out.println(" -Имя автора - "+ nosov.getFirstName());
         System.out.println(" -Фамилия автора - "+ nosov.getSecondName());
         System.out.println(" -Год рождения автора - "+ nosov.getBirhday());
-// test hw
-        Person sarah = new Person("Sara", 30);
-        System.out.println(" Персонаж " + sarah.getName() + " с возрастом " + sarah.getAge());
+        // toString автора
+        System.out.println(tolstoi);
+        System.out.println(nosov);
 
+// test hw оно все работает, просто не юзаем за не нужности сейчас.
+//        Person sarah = new Person("Сара", 30);
+//
+ //       System.out.println(" Персонаж " + sarah.getName() + " с возрастом " + sarah.getAge());
+ //      Person.testAge();
+  //      sarah.increaseAge(3);
+ //       System.out.println(sarah);
+//
+//        Person david = new Person("Давид", 23);
+ //       System.out.println(" Персонаж " + david.getName() + " с возрастом " + david.getAge());
+//        Person.testAge();
+//        System.out.println(david);
+
+      //  if (sarah.adult()) {
+      //      System.out.println(" go to the bar");
+     //   } else {
+      //      System.out.println( " go to the school");
+      //  }
 
 
     }
