@@ -3,12 +3,10 @@ package HomeworksProSky;
 public class Autor {
         private String firstName;
          private String secondName;
-        private int birhday;
 
-        public Autor(String firstName, String secondName, int birhday) {
+        public Autor(String firstName, String secondName) {
                 this.firstName = firstName;
                 this.secondName = secondName;
-                this.birhday = birhday;
         }
 
         public String getFirstName() {
@@ -19,7 +17,4 @@ public class Autor {
                 return secondName;
         }
 
-        public int getBirhday() {
-                return birhday;
-        }
 }

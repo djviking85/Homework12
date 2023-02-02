@@ -1,18 +1,19 @@
 package HomeworksProSky;
 
 public class Book {
-        private String authorName;
         private String bookName;
+        private Autor autor;
         private int publishingYear;
 
-    public Book(String authorName, String bookName, int publishingYear) {
-        this.authorName = authorName;
+
+
+    public Book(String bookName, Autor autor, int publishingYear) {
+        this.autor = autor;
         this.bookName = bookName;
         this.publishingYear = publishingYear;
     }
-
-    public String getAuthorName() {
-        return authorName;
+    public Autor getAutor() {
+        return autor;
     }
 
     public String getBookName() {

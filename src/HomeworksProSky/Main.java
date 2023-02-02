@@ -5,47 +5,21 @@ import HomeworksProSky.Book;
 
 public class Main {
     public static void main(String[] args) {
+        Autor tolstoi = new Autor("Лев", "Толстой");
+        Book warAndPeace = new Book( "War and Peace", tolstoi, 1868);
 
-        Book warAndPeace = new Book("Tolstoi", "War and Peace", 1868);
-        Book neznaika = new Book("Носов", "Незнайка на луне", 1964);
-
-        System.out.println("Автор - " + warAndPeace.getAuthorName());
-        System.out.println("Название - " + warAndPeace.getBookName());
-
-        // getter
-        System.out.println("Год - " + warAndPeace.getPublishingYear());
-
-        // setter
-        warAndPeace.setPublishingYear(1800);
-        System.out.println( "set Year2 "+ warAndPeace.getPublishingYear());
-
-        System.out.println("-Автор - " + neznaika.getAuthorName());
-        System.out.println("-Название - " + neznaika.getBookName());
-        System.out.println("-Год - " + neznaika.getPublishingYear());
-
-        // getter
-        System.out.println("-Год - " + neznaika.getPublishingYear());
-
-        // setter
-        neznaika.setPublishingYear(1800);
-        System.out.println( "-set Year2 "+ neznaika.getPublishingYear());
-
-        Autor tolstoi = new Autor("Лев", "Толстой", 1828);
-        Autor nosov = new Autor("Николай", "Носов", 1908);
+        System.out.println("Книга - " + warAndPeace.getBookName()
+                + ", год издания - " + warAndPeace.getPublishingYear()
+                + ", Имя автора - " + warAndPeace.getAutor().getFirstName()
+                + ", Фамилия автора - " + tolstoi.getSecondName());
 
 
-        System.out.println(" Имя автора - "+ tolstoi.getFirstName());
-        System.out.println(" Фамилия автора - "+ tolstoi.getSecondName());
-        System.out.println(" Год рождения автора - "+ tolstoi.getBirhday());
+        Autor autor = new Autor("Николай", "Носов");
+        Book book = new Book("Незнайка на луне", autor, 1960);
 
-        System.out.println(" -Имя автора - "+ nosov.getFirstName());
-        System.out.println(" -Фамилия автора - "+ nosov.getSecondName());
-        System.out.println(" -Год рождения автора - "+ nosov.getBirhday());
-// test hw
-        Person sarah = new Person("Sara", 30);
-        System.out.println(" Персонаж " + sarah.getName() + " с возрастом " + sarah.getAge());
-
-
+        System.out.printf("Книга %s, от Автора %s %s, выпущена %d%n",
+                book.getBookName(), book.getAutor().getFirstName(),
+                book.getAutor().getSecondName(),book.getPublishingYear());
 
     }
 }
